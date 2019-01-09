@@ -75,10 +75,11 @@ th, td {
 
 /* The Close Button */
 .close {
-  color: black;
+  color: rgb(255, 255, 255);
+  padding: 8px 12px;
   position: absolute;
-  top: 10px;
-  right: 25px;
+  top: 0px;
+  right: 0;
   font-size: 35px;
   font-weight: bold;
 }
@@ -179,49 +180,59 @@ tr:nth-child(even){background-color: #f2f2f2}
 
 <div class="row">
   <div class="column">
-    <img src="img_nature.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <img src="Images/Olympic_Bibis_1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="img_snow.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img src="Images/Olympic_Bibis_2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="img_mountains.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <img src="Images/Olympic_Bibis_3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="img_lights.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img src="Images/Olympic_Bibis_4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="img_lights.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+    <img src="Images/Olympic_Bibis_5.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>  
+  <div class="column">
+    <img src="Images/Olympic_Bibis_6.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
   </div>  
 </div>
 
 <div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
+  
   <div class="modal-content">
+    
+    <span class="close cursor" onclick="closeModal()">&times;</span>
 
     <div class="mySlides">
-      <div class="numbertext">1 / 5</div>
-      <img src="img_nature_wide.jpg" style="width:100%">
+      <div class="numbertext">1 / 6</div>
+      <img src="Images/Olympic_Bibis_1.png" style="width:650px">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 5</div>
-      <img src="img_snow_wide.jpg" style="width:100%">
+      <div class="numbertext">2 / 6</div>
+      <img src="Images/Olympic_Bibis_2.png" style="width:650px">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">3 / 5</div>
-      <img src="img_mountains_wide.jpg" style="width:100%">
+      <div class="numbertext">3 / 6</div>
+      <img src="Images/Olympic_Bibis_3.png" style="width:650px">
     </div>
     
     <div class="mySlides">
-      <div class="numbertext">4 / 5</div>
-      <img src="img_lights_wide.jpg" style="width:100%">
+      <div class="numbertext">4 / 6</div>
+      <img src="Images/Olympic_Bibis_4.png" style="width:650px">
     </div>
     
     <div class="mySlides">
-      <div class="numbertext">5 / 5</div>
-      <img src="img_lights_wide.jpg" style="width:100%">
+      <div class="numbertext">5 / 6</div>
+      <img src="Images/Olympic_Bibis_5.png" style="width:650px">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="Images/Olympic_Bibis_6.png" style="width:650px">
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -233,19 +244,22 @@ tr:nth-child(even){background-color: #f2f2f2}
 
 
     <div class="column">
-      <img class="demo cursor" src="img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
+      <img class="demo cursor" src="Images/Olympic_Bibis_1.png" style="width:100%" onclick="currentSlide(1)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img_snow_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
+      <img class="demo cursor" src="Images/Olympic_Bibis_2.png" style="width:100%" onclick="currentSlide(2)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
+      <img class="demo cursor" src="Images/Olympic_Bibis_3.png" style="width:100%" onclick="currentSlide(3)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
+      <img class="demo cursor" src="Images/Olympic_Bibis_4.png" style="width:100%" onclick="currentSlide(4)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
     </div>
-	<div class="column">
-      <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
+	  <div class="column">
+      <img class="demo cursor" src="Images/Olympic_Bibis_5.png" style="width:100%" onclick="currentSlide(5)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Images/Olympic_Bibis_6.png" style="width:100%" onclick="currentSlide(6)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
     </div>
   </div>
 </div>
