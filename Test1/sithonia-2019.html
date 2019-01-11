@@ -147,7 +147,11 @@ img {
   margin-bottom: 10px;
 }
 
-.caption-container {
+.caption-container {  
+  
+  margin-top: -50px;
+  margin: auto;
+  width: 650px;
   text-align: center;
   background-color: #366fe9;
   padding: 2px 16px;
@@ -227,10 +231,16 @@ tr:nth-child(even){background-color: #f2f2f2}
       </div>  
     </div>
 
-    <div id="myModal" class="modal">
+    <div id="myModal" class="modal">    
       
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <br>
+
       <div class="modal-content">
-        
+
         <span class="close cursor" onclick="closeModal()">&times;</span>
 
         <div class="mySlides">
@@ -265,10 +275,6 @@ tr:nth-child(even){background-color: #f2f2f2}
         
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
 
         <div class="column">
           <img class="demo cursor" src="https://www.melitours.bg/wp-content/uploads/2018/12/olympic_bibis6-1024x768.jpeg" style="width:100%" onclick="currentSlide(1)" alt="ХОТЕЛ “OLYMPIC BIBIS” *** – МЕТАМОРФОСИ – СИТОНИЯ">
